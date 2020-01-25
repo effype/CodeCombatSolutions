@@ -1,0 +1,11 @@
+enemy1 = hero.findNearestEnemy()
+hero.attack(enemy1)
+hero.attack(enemy1)
+
+monkey = hero.findNearestEnemy()
+hero.attack(monkey)
+hero.attack(monkey)
+
+hero.moveUp()
+hero.moveRight()
+hero.moveRight()
