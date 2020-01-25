@@ -1,0 +1,10 @@
+hero.moveRight();
+hero.attack("Chest");
+hero.moveDown();
+
+while(true) {
+    // Rusz się trzy razy.
+    hero.moveRight(3);
+    // Move 3 times more.
+    hero.moveDown(3);
+}
